@@ -83,25 +83,69 @@
 //     }
 // }
 
-// Ejercicio 6
+// // Ejercicio 6
 // console.log("------Ejercicio 6------");
 // const miArreglo = [ 1, 2, 3, 4, 5, 6, 71, 18, 97, 106 ]
 
 // for (let i = 0; i < miArreglo.length; i++) {
-//     console.log(miArreglo[i]);
+//     console.log(`Mi array en la posicion ${i} tiene guardaddo a : ${miArreglo[i]}`);
 // }
 
-// Ejercicio 7
+// // Ejercicio 7
 // console.log("------Ejercicio 7------");
 
-const miArregloMultiplicar = [ 17, 25, 30, 43, 5, 61, 71, 18, 97, 106 ]
+// const miArregloMultiplicar = [ 17, 25, 30, 43, 5, 61, 71, 18, 97, 106 ]
 
-for (let i = 0; i < miArregloMultiplicar.length; i++) {
-    let multiplo2= (miArregloMultiplicar[i] *2); 
-    console.log(`El doble de ${miArregloMultiplicar[i]} es=  ${multiplo2}`);
- }
+// for (let i = 0; i < miArregloMultiplicar.length; i++) {
+//     let multiplo2= (miArregloMultiplicar[i] *2); 
+//     console.log(`El doble de ${miArregloMultiplicar[i]} es=  ${multiplo2}`);
+// }
 
+// //Ejercicio 8
+// console.log("------Ejercicio 8------");
 
+// const familia = [
+//     {
+//         nombre: "Juan",
+//         apellido: "Pérez",
+//         edad: 25,
+//         ciudad: "Bogota"
+//     },
 
+//     {
+//         nombre: "Pedro",
+//         apellido: "Pérez",
+//         edad: 54,
+//         ciudad: "Bogota"
+//     },
 
+//     {
+//         nombre: "María",
+//         apellido: "Pérez",
+//         edad: 43,
+//         ciudad: "Bogota"
+//     },
 
+//     {
+//         nombre: "Ana",
+//         apellido: "Pérez",
+//         edad: 15,
+//         ciudad: "Bogota"
+//     }
+// ];
+
+// for (let i = 0; i < familia.length; i++) {
+//     console.log(`Hola soy ${familia[i].nombre} ${familia[i].apellido} tengo ${familia[i].edad} años y vivo en la ciudad de ${familia[i].ciudad}`);
+// }
+
+// // Ejercicio 9
+// console.log("------Ejercicio 9------");
+
+// const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+// for (let i = 0; i < numeros.length; i++) {
+//     if (numeros[i] % 2 !== 0) {
+//         console.log(`El numero ${numeros[i]} es un numero impar`);
+//     }
+
+// }
